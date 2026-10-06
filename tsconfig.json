@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "types":["node"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
+
+
+// ### Explanation of Settings
+
+// * `target`: Sets the JavaScript version for the output code to match runtime support in [Node.js](https://nodejs.org/).
+// * `lib`: Specifies the built-in type definition libraries to include during compilation.
+// * `module` and `moduleResolution`: Directs the [TypeScript](https://www.typescriptlang.org/) compiler to handle modern module imports and exports using [Node.js](https://nodejs.org/) resolution rules.
+// * `rootDir` and `outDir`: Defines where your source code lives and where the compiled files go.
+// * `strict`: Turns on all strict type-checking options to catch bugs early.
+// * `resolveJsonModule`: Allows importing `.json` files directly into your code.
+// * `include` and `exclude`: Tells the compiler which directories to process and which ones to ignore.
+
+// <FollowUp>
+// If you want to customize this further, let me know:
+// * Do you need support for **path aliases** (e.g., `@utils/`)?
+// * Are you integrating a specific library like **Express** or **Fastify**?
+// </FollowUp>
