@@ -9,7 +9,9 @@
     "02": "tsx src/02-crypto-module.ts",
     "04": "tsx src/04-callback-promises-async-await-module.ts",
     "05": "tsx src/05-fs-module.ts",
-    "06": "tsx src/06-buffer.ts"
+    "06": "tsx src/06-buffer.ts",
+    "07": "tsx src/07-event-emitter.ts",
+    "08": "tsx src/08-streams.ts"
   },
   "keywords": [],
   "author": "",
